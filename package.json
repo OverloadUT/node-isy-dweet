@@ -1,0 +1,24 @@
+{
+  "name": "node-isy-dweet",
+  "version": "0.0.1",
+  "description": "Reads devices from an ISY994 and spits out JSON to use in a Network Resource for POSTing to Dweet.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overloadut/node-isy-dweet.git"
+  },
+  "author": "Greg \"OverloadUT\" Laabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overloadut/node-isy-dweet/issues"
+  },
+  "homepage": "https://github.com/overloadut/node-isy-dweet#readme",
+  "dependencies": {
+    "command-line-args": "^2.1.3",
+    "dotenv": "^1.2.0",
+    "isy99": "0.0.3"
+  }
+}
